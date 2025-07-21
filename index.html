@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Anurag Patidar | Digital E-Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fefcea, #f1da36);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 30px 15px;
+    }
+
+    .card {
+      background: white;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .header {
+      background-color: #f9b233;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .logo {
+      width: 100px;
+      margin: 20px auto 0;
+      display: block;
+    }
+
+    .info {
+      padding: 20px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .info p {
+      margin: 10px 0;
+    }
+
+    .info b {
+      display: inline-block;
+      width: 120px;
+      font-weight: 600;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      text-align: center;
+      padding: 10px;
+      border-radius: 8px;
+      background: #f9b233;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .buttons a:hover {
+      background: #e09e24;
+    }
+
+    @media (max-width: 400px) {
+      .info b {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <img src="RSFP LOGO.jpeg" alt="RSFP Logo" class="logo" />
+      <h1>Anurag Patidar</h1>
+      <p>Business Development Executive</p>
+    </div>
+    <div class="info">
+      <p><b>Email:</b> <a href="mailto:anurag.rsfp@gmail.com">anurag.rsfp@gmail.com</a></p>
+      <p><b>Phone:</b> 7566942787</p>
+      <p><b>Company:</b> Raheja Solar Food Processing Pvt Ltd</p>
+      <p><b>Website:</b> <a href="https://www.rsfp.in/" target="_blank">www.rsfp.in</a></p>
+      <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/anurag-patidar-ab4736372" target="_blank">linkedin.com/in/anurag-patidar</a></p>
+      <p><b>Location:</b> <a href="https://maps.app.goo.gl/8go5wXEd8BmDN6xw7?g_st=ac" target="_blank">Google Maps</a></p>
+      <div class="buttons">
+        <a href="mailto:anurag.rsfp@gmail.com">📧 Email Me</a>
+        <a href="tel:7566942787">📞 Call Now</a>
+        <a href="https://www.rsfp.in/" target="_blank">🌐 Visit Website</a>
+        <a href="https://www.linkedin.com/in/anurag-patidar-ab4736372" target="_blank">💼 LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
